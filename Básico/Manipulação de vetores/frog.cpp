@@ -26,3 +26,5 @@ signed main(){
     }
     fr(i, N) cout << frogs[i] << endl;
 }
+
+//link to the question: https://neps.academy/exercise/529
