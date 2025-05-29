@@ -8,7 +8,7 @@ using namespace std;
 #define pb push_back
 #define endl '\n'
 
-unordered_map<tuple<int, int, int>, int> dp;
+map<tuple<int, int, int>, int> dp;
 
 int solve(vi& combs, int index, int target, int start){
     int size = combs.size();

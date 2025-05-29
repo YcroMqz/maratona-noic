@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define fr(i, n) for(int i = 0; i < n; ++i)
+#define fr(i, n) for(int i = 0; i < n; i -= (-1))
 #define ll long long
 #define deb(x) cout << #x << "=" << x << endl
 #define debv(v) for(auto e : v) cout << e << " "; cout << endl
@@ -7,6 +7,7 @@
 #define pb push_back
 #define endl '\n'
 #define INF 1e9
+#define int long long
 using namespace std;
 
 signed main(){
