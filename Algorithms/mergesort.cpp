@@ -26,10 +26,8 @@ void merge(int *vet, int start, int half, int end){
     for(int i = start; i <= end; i++){
         vet[i] = temp_vet[j];
         j++;
-    }
-    delete[] temp_vet;
+    } delete[] temp_vet;
 }
-
 void mergeSort(int *vet, int start, int end){
     if(start < end){
         int half = (start + end)/2;
@@ -38,7 +36,6 @@ void mergeSort(int *vet, int start, int end){
         merge(vet, start, half, end);
     }
 }
-
 signed main(){
     int vet[20] = {25, 7, 91, 13, 50, 3, 88, 62, 19, 44, 77, 30, 5, 99, 10, 71, 36, 8, 55, 22};
     mergeSort(vet, 0, 19);
